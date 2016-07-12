@@ -19,4 +19,7 @@ class Tenant
   def occupation=
   	@occupation = occupation
   end
+  def full_name
+  	"#{f_name} '#{nickname}' #{l_name}"
+  end
 end
